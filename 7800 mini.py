@@ -35,7 +35,7 @@ while True:
         contr = (contr + 0)
     else:
         contr = (contr + 10)
-        keyboard.send('s')
+        keyboard.send('d')
     time.sleep(sleep)
     GPIO.output(sclk, False)
     time.sleep(sleep)
